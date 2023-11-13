@@ -5,7 +5,6 @@ function NavigationBar() {
     return <h1>Hello Even Newer World!</h1>
 }
 
-const domNode = document.getElementById('navigation');
-const root = createRoot{domNode};
+const root = createRoot(document.getElementById('navigation'));
 root.render(<NavigationBar />);
 
