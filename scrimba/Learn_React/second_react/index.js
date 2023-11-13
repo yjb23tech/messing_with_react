@@ -1,6 +1,6 @@
 const App = () => {
 
-    return React.createElement("div", {}, React.createElement("h2", {}, "Prometheus Risen."));
+    return React.createElement("div", {}, React.createElement("h3", {}, "Prometheus Risen."));
 };
 
 const container = document.getElementById("root");
